@@ -91,6 +91,10 @@ nav.navbar ul.navbar-list li a:hover {
   color: #0FA0CE;
 }
 
+nav.navbar ul.navbar-list li.active {
+    font-weight: 600;
+}
+
 /* End Site Header */
 
 
@@ -199,7 +203,8 @@ form#contact-form textarea#id_message {
 
 footer#site-footer section#footer-info {
   height: 15rem;
-  background: rgb(226, 229, 236);
+  /* background: rgb(226, 229, 236); */
+  background: #F7F7F7;
 }
 
 footer#site-footer section#footer-info div.footer-container {
