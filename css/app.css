@@ -194,6 +194,14 @@ footer#site-footer {
   bottom: 0;
 }
 
+div#contact-form-container {
+    padding-bottom: 4rem;
+}
+
+form#contact-form {
+    margin: 0;
+}
+
 form#contact-form .row {
     margin-bottom: 0;
 }
@@ -209,8 +217,8 @@ form#contact-form textarea#id_message {
 
 footer#site-footer section#footer-info {
   height: 15rem;
-  /* background: rgb(226, 229, 236); */
   background: #F7F7F7;
+  border-top: 1px solid #EEE;
 }
 
 footer#site-footer section#footer-info div.footer-container {
