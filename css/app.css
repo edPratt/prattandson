@@ -40,23 +40,39 @@ header#site-header img {
 
 header#site-header div.header-image {
   width: 100%;
-  height: 25rem;
+  height: 27rem;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/worker.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 header#site-header div.header-image h1 {
   color: #FFF;
   text-align: center;
   padding-top: 10rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header#site-header div.header-image h2 {
   color: #FFF;
-  text-align: center;
   font-size: 2rem;
+}
+
+header#site-header div.header-image h3 {
+  color: #FFF;
+  font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header#site-header div.header-image h3 a {
+    color: #FFF;
+}
+
+
+header#site-header div.header-image h3 a:hover {
+    text-decoration: none;
 }
 
 nav.navbar {
