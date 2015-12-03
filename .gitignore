@@ -2,3 +2,5 @@ _site/
 *.idea
 *.swp
 *.lock
+.rbenv
+.ruby-version
