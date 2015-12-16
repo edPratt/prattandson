@@ -242,6 +242,10 @@ footer#site-footer section#footer-info div.footer-container {
     margin-bottom: 0;
 }
 
+#footer-info .social-media {
+    text-align: right;
+}
+
 /* End Site Footer */
 
 
