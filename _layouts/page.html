@@ -1,3 +1,7 @@
+---
+title: Pratt and Son - Contractor
+location: Eastern MA
+---
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,9 +10,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ page.title }}</title>
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ layout.title }}{% endif %} in {% if page.location %}{{ page.location }}{% else %}{{ layout.location }}{% endif %}</title>
         <meta name="description" 
-        content="{{ page.description }}">
+        content="{% if page.description %}{{ page.description }}{% else %}{{ layout.description }}{% endif %} in {% if page.location %}{{ page.location }}{% else %}{{ layout.location }}{% endif %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->

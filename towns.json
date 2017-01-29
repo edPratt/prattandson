@@ -1,0 +1,34 @@
+{
+  "towns": [
+    {
+      "name": "walpole",
+      "location": "Walpole, MA"
+    },
+    {
+      "name": "westwood",
+      "location": "Westwood, MA"
+    }
+  ],
+  "pages": [
+    {
+      "directory": "copper-roof",
+      "layout": "copper_roof"
+    },
+    {
+      "directory": "gutters",
+      "layout": "gutters"
+    },
+    {
+      "directory": "roofing",
+      "layout": "roofing"
+    },
+    {
+      "directory": "siding",
+      "layout": "siding"
+    },
+    {
+      "directory": "windows",
+      "layout": "windows"
+    }
+  ]
+}
