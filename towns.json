@@ -7,6 +7,14 @@
     {
       "name": "westwood",
       "location": "Westwood, MA"
+    },
+    {
+      "name": "norwood",
+      "location": "Norwood, MA"
+    },
+    {
+      "name": "stoughton",
+      "location": "Stoughton, MA"
     }
   ],
   "pages": [
