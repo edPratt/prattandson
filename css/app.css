@@ -1,11 +1,11 @@
 ---
 ---
- 
+
 /* Includes. */
-{% include normalize.css %} 
-{% include skeleton.css %} 
-/* End Includes. */ 
- 
+{% include normalize.css %}
+{% include skeleton.css %}
+/* End Includes. */
+
 
 
 html {
@@ -139,6 +139,12 @@ main#site-content img.category-image {
 
 div.content-section {
     margin: 6rem 0;
+}
+
+div.content-section-1 {
+    margin: 6rem 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/worker.jpg');
+
 }
 
 .text-right {

@@ -26,26 +26,26 @@
                 class="u-full-width" required>
             </div>
             <div class="six columns">
-                <label for="id_address">Address</label>
+                <label for="id_address" class="required">Address</label>
                 <input id="id_address" type="text" name="address"
-                class="u-full-width">
+                class="u-full-width" required>
             </div>
         </div>
         <div class="row">
             <div class="six columns">
-                <label for="id_city">City</label>
+                <label for="id_city" class="required">City</label>
                 <input id="id_city" type="text" name="city"
-                class="u-full-width">
+                class="u-full-width" required>
             </div>
             <div class="six columns">
-                <label for="id_state">State</label>
+                <label for="id_state" class="required">State</label>
                 <input id="id_state" type="text" name="state"
-                class="u-full-width">
+                class="u-full-width" required>
             </div>
         </div>
-        <label for="id_message">Message</label>
-        <textarea id="id_message" name="message"
+        <label for="id_message" class="required">Desired Work</label>
+        <textarea placeholder="i.e. Roof replacement, one window repair, etc." id="id_message" name="message"
             class="u-full-width" rows="10"></textarea>
-        <input id="contact-submit" type="submit" value="Send" class="button-primary">
+        <input id="contact-submit" type="submit" value="Send" class="button-primary" required>
     </form>
 </div>
