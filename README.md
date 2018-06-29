@@ -9,7 +9,10 @@ CONTENT:
 - youtube videos
 - facebook videos
 
-
+run locally:
+```
+bundle exec jekyll serve
+```
 
 ####
 #####
