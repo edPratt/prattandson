@@ -1,18 +1,5 @@
-####
-TODO:
-#####
-SEO:
-- backlinks
-- google analytics
-
-CONTENT:
-- youtube videos
-- facebook videos
+# prattandson
+The website for Pratt and Son, Inc.
 
 run locally:
-```
 bundle exec jekyll serve
-```
-
-####
-#####

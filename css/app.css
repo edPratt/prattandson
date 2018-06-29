@@ -6,32 +6,7 @@
 {% include skeleton.css %}
 /* End Includes. */
 
-div.service-item {
-    /* To correctly align image, regardless of content height: */
-    vertical-align: top;
-    display: inline-block;
-    /* To horizontally center images and caption */
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    width: 260px;
-    padding-bottom: 50px;
-}
 
-div.services-container{
-    text-align: center;
-}
-
-img.services {
-    width: 230px;
-    height: 180px;
-}
-.caption {
-    /* Make the caption a block so it occupies its own line. */
-    display: block;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 10px
-}
 
 html {
     position: relative;
@@ -163,7 +138,7 @@ main#site-content img.category-image {
 }
 
 div.content-section {
-    margin: 10rem 0;
+    margin: 6rem 0;
 }
 
 div.content-section-1 {
@@ -284,3 +259,4 @@ footer#site-footer section#footer-info div.footer-container {
 .show-for-small {
     display: none;
 }
+
