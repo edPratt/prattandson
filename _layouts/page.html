@@ -11,7 +11,7 @@ location: Eastern MA
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ layout.title }}{% endif %} in {% if page.location %}{{ page.location }}{% else %}{{ layout.location }}{% endif %}</title>
-        <meta name="description" 
+        <meta name="description"
         content="{% if page.description %}{{ page.description }}{% else %}{{ layout.description }}{% endif %} in {% if page.location %}{{ page.location }}{% else %}{{ layout.location }}{% endif %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,8 +26,11 @@ location: Eastern MA
     </head>
     <body>
         <!-- Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WSXB6D"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript>
+          <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WSXB6D"
+                height="0" width="0" style="display:none;visibility:hidden">
+          </iframe>
+        </noscript>
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
