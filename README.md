@@ -6,7 +6,7 @@ SEO:
     https://www.woorank.com/en/blog/how-to-build-links-to-your-inner-pages
     comment on blogs, make a prattandson reddit, comment yelp, google+, etc.
     add google + link to bottom with other social media
-    
+
 - google analytics
 
 CONTENT:
@@ -15,6 +15,22 @@ CONTENT:
 
 keyword reasearch and optimization
 add blog on the site
+
+## Search Results
+### Search term: (roofing/siding/windows) TOWNNAME, MA
+#### Date: 7/17/18
+, , , , , Canton, , Franklin & Mansfield MA.
+#### Roofing
+- Westwood rankings: #2 in map, #5 overall, link: prattandson.com
+- Walpole rankings: #20 overall, link: prattandson.com, backlinks: fixr.com/sp.steve-pratt-1.html
+- Norwood rankings: n/a,
+- Taunton rankings: n/a,
+- Sharon rankings: n/a,
+- Canton rankings: ~38, link: prattandson.com/copper-roof/canton.html
+
+TODO:
+Change business address and photo in google maps
+Get customers to leave yelp reviews, google reviews, etc. ask for permission to post on website
 
 
 render speed:
