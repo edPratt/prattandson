@@ -24,6 +24,7 @@ location: Eastern MA
         <link rel="stylesheet" media="(max-width:600px)" type='text/css' href="/css/app_small.css">
         <link rel="stylesheet" media="(min-width:600px)" type='text/css' href="/css/app.css">
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
         <!-- Facebook Pixel Code -->
         <script>
           !function(f,b,e,v,n,t,s)
@@ -41,21 +42,23 @@ location: Eastern MA
           src="https://www.facebook.com/tr?id=451883241992680&ev=PageView&noscript=1"
         /></noscript>
         <!-- End Facebook Pixel Code -->
-
-        {% if jekyll.environment == 'production' %}
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88215821-3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-88215821-3');
-        </script>
-        {% endif }
-
+        
     </head>
+
     <body>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WSXB6D"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-WSXB6D');</script>
+        <!-- End Google Tag Manager -->
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         <header id="site-header">
             {% include header.html %}
         </header>
