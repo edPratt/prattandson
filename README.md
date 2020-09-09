@@ -9,6 +9,9 @@ SEO:
 
 - google analytics
 
+LOGO:
+- Use adobe spark to make your own: https://www.google.com/search?q=adobe+spark&rlz=1C5CHFA_enUS730US730&oq=adobe+spark&aqs=chrome..69i57j0l5j69i60l2.1727j0j4&sourceid=chrome&ie=UTF-8
+
 CONTENT:
 - youtube videos
 - facebook videos
